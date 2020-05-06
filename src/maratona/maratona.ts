@@ -4,11 +4,11 @@ import {
   PrimaryGeneratedColumn
 } from "typeorm";
 
-@Entity({name: 'Maratona'})
+@Entity({name: 'maratonas'})
 export class Maratona {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @Column()
-  title: string;
+  aula: string;
 }
